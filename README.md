@@ -44,19 +44,14 @@
 - [Live site hosted on Netlify](https://cute-buddy.netlify.app/)
 
 
-## How to navigate this project? Click on the link for related source code:
+## How to navigate this project? 
 
 
-1. Shoppers can choose to view the products in `ListView` or `GridView`. [Click here for relevant code](https://github.com/1codingguy/typescript-e-commerce/blob/main/src/components/ProductList.tsx#L24).
-
+1. Shoppers can choose to view the products in `ListView` or `GridView`. 
 2. Shoppers are able to filter products by different criteria, such as keyword, price, etc.
 
-- [Click here for code structure](https://github.com/1codingguy/typescript-e-commerce/blob/main/src/components/Filters/Filters.tsx#L22);
-- [Click here for filters updating function](https://github.com/1codingguy/typescript-e-commerce/blob/main/src/reducers/filter_reducer.ts#L61).
-
-3. Products can be sorted by price or name, in ascending or descending order [Click here for sorting function](https://github.com/1codingguy/typescript-e-commerce/blob/main/src/reducers/filter_reducer.ts#L41).
-
-4. Payment is processed by Stripe API, [click here for relevant code](https://github.com/1codingguy/typescript-e-commerce/blob/main/src/components/CheckoutForm.tsx).
+3. Products can be sorted by price or name, in ascending or descending order 
+4. Payment is processed by Stripe API.
 
 5. Please note that the newsletter subscription part on `HomePage` does not do anything.
 ## Why did I build the project this way?
